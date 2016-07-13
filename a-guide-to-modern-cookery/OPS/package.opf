@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" unique-identifier="pub-id" version="3.0" xml:lang="en-gb-oxendict" prefix="cc: http://creativecommons.org/ns# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:language>en-gb-oxendict</dc:language>
+		<dc:title id="t1">A Guide to Modern Cookery</dc:title>
+		<meta refines="#t1" property="title-type">main</meta>
+		<meta refines="#t1" property="display-seq">1</meta>
+		<meta property="ibooks:version">0.1</meta>
+		<dc:creator id="creator">Georges Auguste Escoffier</dc:creator>
+		<dc:rights>Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence.</dc:rights>
+		<link rel="cc:license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<dc:publisher xml:lang="ga">Fairtheoir Thuaidh</dc:publisher>
+		<dc:description>The 1907 abridged English translation of Escoffier’s ‘Le guide culinaire’.</dc:description>
+		<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator" property="file-as">Escoffier, Georges Auguste</meta>
+		<dc:date>2016-07-011T13:49:35Z</dc:date>
+		<meta property="dcterms:modified">2016-07-13T13:15:00Z</meta>
+		<dc:identifier id="pub-id">fairtheoirthuaidh.uk/publications/a-guide-to-modern-cooking</dc:identifier>
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:subject>Cooking</dc:subject>
+	</metadata>
+	<manifest>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover-image" properties="cover-image" href="images/cover.jpeg" media-type="image/jpeg"/>
+		<item id="title" href="title.xhtml" media-type="application/xhtml+xml"/>
+		<item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml"/>
+		<item id="nav" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml"/>
+		<item id="logo" href="images/logo.png" media-type="image/png"/>
+		<item href="preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
+		<item href="01-fonds-de-cuisine.xhtml" id="chapter-01" media-type="application/xhtml+xml"/>
+		<item href="02-the-leading-warm-sauces.xhtml" id="chapter-02" media-type="application/xhtml+xml"/>
+		<item href="glossary.xhtml" id="glossary" media-type="application/xhtml+xml"/>
+		<item href="errata.xhtml" id="errata" media-type="application/xhtml+xml"/>
+		<item id="stylesheet" href="css/book.css" media-type="text/css"/>
+	</manifest>
+	<spine>
+		<itemref idref="cover"/>
+		<itemref idref="title"/>
+		<itemref idref="copyright"/>
+		<itemref idref="preface"/>
+		<itemref idref="chapter-01"/>
+		<itemref idref="chapter-02"/>
+		<itemref idref="glossary"/>
+		<itemref idref="errata"/>
+	</spine>
+	<guide>
+		<reference type="text" title="Preface" href="preface.xhtml"/>
+	</guide>
+</package>
