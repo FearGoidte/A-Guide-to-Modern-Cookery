@@ -23,6 +23,7 @@
 		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
 		<item id="cover-image" properties="cover-image" href="images/cover.jpeg" media-type="image/jpeg"/>
 		<item id="title" href="title.xhtml" media-type="application/xhtml+xml"/>
+		<item id="georges-auguste-escoffier" href="georges-auguste-escoffier.xhtml" media-type="application/xhtml+xml"/>
 		<item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml"/>
 		<item id="nav" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml"/>
 		<item id="logo" href="images/logo.png" media-type="image/png"/>
@@ -35,14 +36,16 @@
 		<item href="06-the-court-bouillons-and-the-marinades.xhtml" id="chapter-06" media-type="application/xhtml+xml"/>
 		<item href="07-elementary-preparations.xhtml" id="chapter-07" media-type="application/xhtml+xml"/>
 		<item href="08-the-various-garnishes-for-soups.xhtml" id="chapter-08" media-type="application/xhtml+xml"/>
-		<item href="09-garnishing-preparations-for-releve%CC%81s-and-entre%CC%81es.xhtml" id="chapter-09" media-type="application/xhtml+xml"/>
+		<item href="09-garnishing-preparations-for-releves-and-entrees.xhtml" id="chapter-09" media-type="application/xhtml+xml"/>
 		<item href="glossary.xhtml" id="glossary" media-type="application/xhtml+xml"/>
 		<item href="errata.xhtml" id="errata" media-type="application/xhtml+xml"/>
 		<item id="stylesheet" href="css/book.css" media-type="text/css"/>
+		<item id="portrait" href="images/georges-auguste-escoffier.jpeg" media-type="image/jpeg"/>
 	</manifest>
 	<spine>
 		<itemref idref="cover"/>
 		<itemref idref="title"/>
+		<itemref idref="georges-auguste-escoffier"/>
 		<itemref idref="copyright"/>
 		<itemref idref="preface"/>
 		<itemref idref="chapter-01"/>
