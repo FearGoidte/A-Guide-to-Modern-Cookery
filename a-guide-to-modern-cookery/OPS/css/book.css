@@ -60,8 +60,12 @@ h6 {
 }
 
 h2:not(.formula) {
-	font-variant : small-caps;
 	text-align : center
+}
+
+h2:not(.formula),
+.first-words {
+	font-variant : small-caps
 }
 
 img {
