@@ -44,6 +44,7 @@
 		<item href="08-the-various-garnishes-for-soups.xhtml" id="chapter-08" media-type="application/xhtml+xml"/>
 		<item href="09-garnishing-preparations-for-releves-and-entrees.xhtml" id="chapter-09" media-type="application/xhtml+xml"/>
 		<item href="10-leading-culinary-operations.xhtml" id="chapter-10" media-type="application/xhtml+xml"/>
+		<item href="part-02.xhtml" id="part-2" media-type="application/xhtml+xml"/>
 		<item href="glossary.xhtml" id="glossary" media-type="application/xhtml+xml"/>
 		<item href="errata.xhtml" id="errata" media-type="application/xhtml+xml"/>
 		<item id="stylesheet" href="css/book.css" media-type="text/css"/>
@@ -65,6 +66,7 @@
 		<itemref idref="chapter-08"/>
 		<itemref idref="chapter-09"/>
 		<itemref idref="chapter-10"/>
+		<itemref idref="part-2"/>
 		<itemref idref="glossary"/>
 		<itemref idref="errata"/>
 	</spine>
