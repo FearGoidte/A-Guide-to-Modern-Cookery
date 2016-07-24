@@ -14,4 +14,4 @@ I have no timetable for completion.
 
 ## Copyright and permissions
 
-Excepting where otherwise indicated, all images, sounds, and words are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. A copy of this licence is also provided as a text file within this repository ([licence.txt](licence.txt)).
+Excepting where otherwise indicated, all content is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. A copy of this licence is also provided as a text file within this repository ([licence.txt](licence.txt)).
