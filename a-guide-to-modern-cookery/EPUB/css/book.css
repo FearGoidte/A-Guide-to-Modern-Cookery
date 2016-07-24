@@ -122,8 +122,7 @@ a:active {
 a:link { /* Unvisited links */
 	border-bottom : .05em solid blue;
 	padding-bottom : .005em;
-	text-decoration : none;
-	transition : all .25s ease
+	text-decoration : none
 }
 
 a:visited { /* Visited links */
@@ -144,7 +143,7 @@ a:active { /* As a link is activated. Moves the text down as though a button wer
 }
 
 .exp {
-	text-transform : initial
+	text-transform : none
 }
 
 .exp::before {
@@ -201,8 +200,17 @@ ol.inline-list {
 	left : 0;
 	position : relative
 }
+
 ol.inline-list > li::before {
 	content : "(" counter(item) ") "
+}
+
+.title {
+	text-align : center
+}
+
+.title p {
+	margin-top : 1.4em
 }
 
 @page {
