@@ -3,16 +3,24 @@
 	<metadata xmlns:opf="http://www.idpf.org/2007/opf">
 		<dc:language>en-gb-oxendict</dc:language>
 		<dc:title id="t1">A Guide to Modern Cookery</dc:title>
-		<meta refines="#t1" property="title-type">main</meta>
-		<meta refines="#t1" property="display-seq">1</meta>
+		<dc:source>https://archive.org/details/cu31924000610117</dc:source>
 		<meta property="ibooks:version">0.1</meta>
-		<dc:creator id="creator">Georges Auguste Escoffier</dc:creator>
 		<dc:rights>Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence.</dc:rights>
 		<link rel="cc:license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<dc:publisher xml:lang="ga">Fairtheoir Thuaidh</dc:publisher>
 		<dc:description>The 1907 abridged English translation of Escoffier’s ‘Le guide culinaire’.</dc:description>
+		<dc:creator id="creator">Georges Auguste Escoffier</dc:creator>
 		<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
 		<meta refines="#creator" property="file-as">Escoffier, Georges Auguste</meta>
+		<dc:contributor id="abridger">William Heinemann</dc:contributor>
+		<meta refines="#abridger" property="role" scheme="marc:relators">abr</meta>
+		<meta refines="#creator" property="file-as">Heinemann, William</meta>
+		<dc:contributor id="editor">James Ó Nuanáin</dc:contributor>
+		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">tyg</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">mrk</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">bjd</meta>
+		<meta refines="#editor" property="file-as">Ó Nuanáin, James</meta>
 		<dc:date>2016-07-011T13:49:35Z</dc:date>
 		<meta property="dcterms:modified">2016-07-13T13:15:00Z</meta>
 		<dc:identifier id="pub-id">fairtheoirthuaidh.uk/publications/a-guide-to-modern-cooking</dc:identifier>
