@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
 html {
-	font : normal normal normal 100%/1.4 Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif
+	font : normal normal normal 100%/1.4 Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	padding : 0
 }
 
-html {
-	padding-left : 1em /* Provides space for top-level hanging list markers */
+html,
+body {
+	margin : 0
+}
+
+body {
+	padding : 0 0 0 2em
 }
 
 caption,
@@ -24,10 +30,22 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.part {
 	font-family : Constantia, "hoefler text", "palatino linotype", serif;
-	margin : 1.4em 0 0;
-	page-break-after : avoid
+	margin : 1.4em 0 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.formula,
+.part {
+	page-break-after : avoid;
+	page-break-inside : avoid
 }
 
 h1 + p,
@@ -50,7 +68,13 @@ tbody th {
 }
 
 h1 {
-	font-size: 2em
+	font-size: 1.5em
+}
+
+h1,
+h2:not(.formula),
+.part {
+	text-align : center
 }
 
 h2,
@@ -61,8 +85,10 @@ h6 {
 	font-size : inherit
 }
 
-h2:not(.formula) {
-	text-align : center
+h1 span::before,
+.exp::before,
+.part span::before {
+	content : "\A"
 }
 
 h2:not(.formula),
@@ -87,7 +113,8 @@ p {
 	margin : 0
 }
 
-p + p {
+p + p,
+p + .inline-list {
 	text-indent : 1em
 }
 
@@ -142,19 +169,39 @@ a:active { /* As a link is activated. Moves the text down as though a button wer
 	top : .1em
 }
 
+a:not([href^="http"])::before {
+	content : "§\A0";
+	font-size : .75em;
+	line-height : 0;
+	position : relative;
+	vertical-align : baseline;
+	top : -.1em
+}
+
 .exp {
 	text-transform : none
 }
 
 .exp::before {
-	content : "\A";
 	white-space : pre
 }
 
+h1 span {
+	font-size : .8em
+}
+
+h1 span::before,
+.part span::before {
+	display : block
+}
+
+.formula,
+.part {
+	text-transform : uppercase
+}
+
 .formula {
-	font-size : inherit;
-	text-transform : uppercase;
-	page-break-after : avoid
+	font-size : inherit
 }
 
 .formula::before {
@@ -163,7 +210,8 @@ a:active { /* As a link is activated. Moves the text down as though a button wer
 
 ol {
 	counter-reset : item;
-	list-style : none
+	list-style : none;
+	padding-left : 1em
 }
 
 ol > li {
@@ -187,11 +235,9 @@ ol > li > ol > li::before {
 	left : -1.4em
 }
 
-ol.inline-list {
-	display : inline
-}
-
-.inline-list li {
+.inline-list li,
+.inline-list ol,
+.inline-list p {
 	display : inline
 }
 
@@ -201,8 +247,12 @@ ol.inline-list {
 	position : relative
 }
 
-ol.inline-list > li::before {
+.inline-list ol > li::before {
 	content : "(" counter(item) ") "
+}
+
+.part {
+	font-size : 2em
 }
 
 .title {
@@ -214,6 +264,7 @@ ol.inline-list > li::before {
 }
 
 @page {
+	padding : 0;
 	orphans : 2;
 	widows : 2
 }
