@@ -1,3 +1,205 @@
 @charset "UTF-8";
-@namespace "http://www.w3.org/1999/xhtml";
-@namespace epub "http://www.idpf.org/2007/ops";
+
+html {
+	font : normal normal normal 100%/1.4 Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif
+}
+
+html {
+	padding-left : 1em /* Provides space for top-level hanging list markers */
+}
+
+caption,
+tbody th {
+	text-align : left
+}
+
+em {
+	font-style : italic
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family : Constantia, "hoefler text", "palatino linotype", serif;
+	margin : 1.4em 0 0;
+	page-break-after : avoid
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+	page-break-before : avoid
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+tbody th {
+	font-weight : inherit
+}
+
+h1 {
+	font-size: 2em
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size : inherit
+}
+
+h2:not(.formula) {
+	font-variant : small-caps;
+	text-align : center
+}
+
+img {
+	height : auto;
+	width : auto;
+	max-height : 100%;
+	max-width : 100%
+}
+
+ol,
+ul {
+	margin : 0;
+	padding : 0 1.4em 0 0
+}
+
+p {
+	margin : 0
+}
+
+p + p {
+	text-indent : 1em
+}
+
+tbody th {
+	padding-right : 1em
+}
+
+table {
+	border-collapse : collapse;
+	border-spacing : 0;
+	page-break-inside : avoid
+}
+
+thead {
+	display : none
+}
+
+a:link,
+a:visited,
+a:active,
+a:link:hover,
+a:visited:hover {
+	background-color : inherit
+}
+
+a:link,
+a:visited,
+a:active {
+	color : inherit
+}
+
+a:link { /* Unvisited links */
+	border-bottom : .05em solid blue;
+	padding-bottom : .005em;
+	text-decoration : none;
+	transition : all .25s ease
+}
+
+a:visited { /* Visited links */
+	border-color : purple
+}
+
+a:link:hover {
+	color : blue
+}
+
+a:visited:hover {
+	color : purple
+}
+
+a:active { /* As a link is activated. Moves the text down as though a button were depressed */
+	position : relative;
+	top : .1em
+}
+
+.exp {
+	text-transform : initial
+}
+
+.exp::before {
+	content : "\A";
+	white-space : pre
+}
+
+.formula {
+	font-size : inherit;
+	text-transform : uppercase;
+	page-break-after : avoid
+}
+
+.formula::before {
+	content : attr(id) "—"
+}
+
+ol {
+	counter-reset : item;
+	list-style : none
+}
+
+ol > li {
+	display : block;
+	position : relative
+}
+
+ol > li::before {
+	content : counter(item) ".";
+	counter-increment : item;
+	left : -1em;
+	position : absolute
+}
+
+ol > li > ol > li {
+	left : 1.4em
+}
+
+ol > li > ol > li::before {
+	content : counter(item, upper-roman) ".";
+	left : -1.4em
+}
+
+ol.inline-list {
+	display : inline
+}
+
+.inline-list li {
+	display : inline
+}
+
+.inline-list li::before {
+	display : inline;
+	left : 0;
+	position : relative
+}
+ol.inline-list > li::before {
+	content : "(" counter(item) ") "
+}
+
+@page {
+	orphans : 2;
+	widows : 2
+}
