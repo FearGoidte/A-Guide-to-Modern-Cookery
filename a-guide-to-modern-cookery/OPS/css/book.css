@@ -13,7 +13,9 @@ tbody th {
 	text-align : left
 }
 
-em {
+em,
+[title="id est"],
+[title="exempli gratia"] {
 	font-style : italic
 }
 
