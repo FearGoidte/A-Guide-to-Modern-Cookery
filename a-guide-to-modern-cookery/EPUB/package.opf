@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" unique-identifier="pub-id" version="3.0" xml:lang="en-gb-oxendict" prefix="cc: http://creativecommons.org/ns# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
-	<metadata xmlns:opf="http://www.idpf.org/2007/opf">
+	<metadata>
 		<dc:language>en-gb-oxendict</dc:language>
 		<dc:title id="t1">A Guide to Modern Cookery</dc:title>
 		<dc:source>https://archive.org/details/cu31924000610117</dc:source>
