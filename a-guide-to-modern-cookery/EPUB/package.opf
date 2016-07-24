@@ -9,15 +9,18 @@
 		<link rel="cc:license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<dc:publisher xml:lang="ga">Fairtheoir Thuaidh</dc:publisher>
 		<dc:description>The 1907 abridged English translation of Escoffier’s ‘Le guide culinaire’.</dc:description>
-		<dc:creator id="creator" file-as="Escoffier, Georges Auguste">Georges Auguste Escoffier</dc:creator>
+		<dc:creator id="creator">Georges Auguste Escoffier</dc:creator>
 		<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
-		<dc:contributor id="abridger" file-as="Heinemann, William">William Heinemann</dc:contributor>
+		<meta refines="#creator" property="file-as">Escoffier, Georges Auguste</meta>
+		<dc:contributor id="abridger">William Heinemann</dc:contributor>
 		<meta refines="#abridger" property="role" scheme="marc:relators">abr</meta>
-		<dc:contributor id="editor" file-as="Ó Nuanáin, James">James Ó Nuanáin</dc:contributor>
+		<meta refines="#creator" property="file-as">Heinemann, William</meta>
+		<dc:contributor id="editor">James Ó Nuanáin</dc:contributor>
 		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">tyg</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">mrk</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">bjd</meta>
+		<meta refines="#editor" property="file-as">Ó Nuanáin, James</meta>
 		<dc:date>2016</dc:date>
 		<meta property="dcterms:created">1907</meta>
 		<meta property="dcterms:modified">2016-07-24T07:22:44Z</meta>
