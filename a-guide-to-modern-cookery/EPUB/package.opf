@@ -21,7 +21,7 @@
 		<meta refines="#editor" property="role" scheme="marc:relators">mrk</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">bjd</meta>
 		<meta refines="#editor" property="file-as">Ó Nuanáin, James</meta>
-		<dc:date>2016-07-011T13:49:35Z</dc:date>
+		<dc:date>2016-07-24</dc:date>
 		<meta property="dcterms:modified">2016-07-13T13:15:00Z</meta>
 		<dc:identifier id="pub-id">fairtheoirthuaidh.uk/publications/a-guide-to-modern-cooking</dc:identifier>
 		<meta property="ibooks:specified-fonts">true</meta>
