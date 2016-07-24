@@ -167,7 +167,7 @@ a:active { /* As a link is activated. Moves the text down as though a button wer
 	top : .1em
 }
 
-a:not([href^="http"])::before {
+a:not([href^="http"],[href^="mailto"])::before {
 	content : "§\A0";
 	font-size : .75em;
 	line-height : 0;
@@ -253,12 +253,31 @@ ol > li > ol > li::before {
 	font-size : 2em
 }
 
+.copyright,
 .title {
 	text-align : center
 }
 
+.copyright p + p,
+.title p + p {
+	text-indent : 0
+}
+
 .title p {
 	margin-top : 1.4em
+}
+
+.publisher {
+	text-align : center;
+	text-indent:0
+}
+.publisher::before {
+	background : url("../images/logo.png") 50%/2em no-repeat;
+	content : "";
+	display : block;
+	height : 2rem;
+	margin : .7em auto;
+	width : auto
 }
 
 @page {
