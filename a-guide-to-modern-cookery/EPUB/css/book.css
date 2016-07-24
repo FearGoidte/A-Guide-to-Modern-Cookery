@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@namespace epub "http://www.idpf.org/2007/ops";
 
 html {
 	font : normal normal normal 100%/1.4 Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
