@@ -116,6 +116,14 @@ p + .inline-list {
 	text-indent : 1em
 }
 
+sup {
+	font-size : .85em;
+	line-height : 0 /* Elements that have a ‘vertical-align’ other than baseline or a position value will expand their parent element’s line-height unless their own line-height is set to ‘0’ */;
+	position : relative;
+	vertical-align : baseline; /* Nullify common user-agent ‘sub’ and ‘super’ defaults */
+	top : -.1em
+}
+
 tbody th {
 	padding-right : 1em
 }
@@ -245,6 +253,10 @@ ol > li > ol > li::before {
 	position : relative
 }
 
+.inline-list ol {
+	padding-left : 0
+}
+
 .inline-list ol > li::before {
 	content : "(" counter(item) ") "
 }
@@ -263,14 +275,11 @@ ol > li > ol > li::before {
 	text-indent : 0
 }
 
-.title p {
-	margin-top : 1.4em
-}
-
 .publisher {
 	text-align : center;
 	text-indent:0
 }
+
 .publisher::before {
 	background : url("../images/logo.png") 50%/2em no-repeat;
 	content : "";
@@ -278,6 +287,14 @@ ol > li > ol > li::before {
 	height : 2rem;
 	margin : .7em auto;
 	width : auto
+}
+
+.subtitle {
+	text-transform : initial
+}
+
+.title p {
+	margin-top : 1.4em
 }
 
 @page {
