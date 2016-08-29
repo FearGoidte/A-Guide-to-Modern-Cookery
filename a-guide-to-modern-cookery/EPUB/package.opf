@@ -49,6 +49,7 @@
 		<item href="part-02.xhtml" id="part-2" media-type="application/xhtml+xml"/>
 		<item href="11-hors-doeuvres.xhtml" id="chapter-11" media-type="application/xhtml+xml"/>
 		<item href="12-eggs.xhtml" id="chapter-12" media-type="application/xhtml+xml"/>
+		<item href="13-soups.xhtml" id="chapter-13" media-type="application/xhtml+xml"/>
 		<item href="glossary.xhtml" id="glossary" media-type="application/xhtml+xml"/>
 		<item href="errata.xhtml" id="errata" media-type="application/xhtml+xml"/>
 		<item id="stylesheet" href="css/book.css" media-type="text/css"/>
@@ -73,6 +74,7 @@
 		<itemref idref="part-2"/>
 		<itemref idref="chapter-11"/>
 		<itemref idref="chapter-12"/>
+		<itemref idref="chapter-13"/>
 		<itemref idref="glossary"/>
 		<itemref idref="errata"/>
 	</spine>
