@@ -104,7 +104,7 @@ img {
 ol,
 ul {
 	margin : 0;
-	padding : 0 1.4em 0 0
+	padding : 0 1em 0 0
 }
 
 p {
@@ -114,6 +114,11 @@ p {
 p + p,
 p + .inline-list {
 	text-indent : 1em
+}
+
+ul {
+	list-style-type : none;
+	padding-left : 1em
 }
 
 sup {
