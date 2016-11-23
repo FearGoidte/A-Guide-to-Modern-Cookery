@@ -10,6 +10,10 @@ The [source document](https://archive.org/details/cu31924000610117) can be found
 
 This is my occasional hobby of turning a rather ratty <abbr title="Portable Document Format" class="initialism">P.D.F.</abbr> of the <time>1907</time> abridged English translation of Escoffier’s [<span lang="fr">Le guide culinaire</span>](https://en.wikipedia.org/wiki/Le_guide_culinaire) into a serviceable electronic book which will allow me to flit at will through its pages.
 
+The source <abbr title="Portable Document Format" class="initialism">P.D.F.</abbr> contains runs of words with no spaces, text fragments scattered across pages, missing accents, and misspellings.
+
+The aim is to interlink all recipe references, add links to the glossary, improve the typography, and make all necessary corrections to the source text.
+
 At any particular time this repository should be ready to download and compress into an ePub with a few missing chapters and a few dead links. Links to content that has not yet been added are in the format `<a href="#"`. Links to the glossary will be created once all the content has been added.
 
 ## Copyright and permissions
