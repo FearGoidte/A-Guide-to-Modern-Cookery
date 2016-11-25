@@ -107,6 +107,21 @@ ul {
 	padding : 0 1em 0 0
 }
 
+mark {
+	background-color : inherit;
+	font-style : italic
+}
+
+mark::after {
+	content: "]"
+}
+
+mark::before {
+	content: "[Editor’s note: "
+}
+
+
+
 p {
 	margin : 0
 }
