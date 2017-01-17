@@ -127,7 +127,8 @@ p {
 }
 
 p + p,
-p + .inline-list {
+p + .inline-list,
+.inline-list + p {
 	text-indent : 1em
 }
 
