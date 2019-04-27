@@ -138,11 +138,11 @@ ul {
 }
 
 sup {
-	font-size : .85em;
+	font-size : .65em;
 	line-height : 0 /* Elements that have a ‘vertical-align’ other than baseline or a position value will expand their parent element’s line-height unless their own line-height is set to ‘0’ */;
 	position : relative;
 	vertical-align : baseline; /* Nullify common user-agent ‘sub’ and ‘super’ defaults */
-	top : -.1em
+	top : -.3em
 }
 
 tbody th {
