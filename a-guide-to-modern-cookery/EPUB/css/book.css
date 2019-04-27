@@ -264,7 +264,8 @@ ol > li > ol > li::before {
 
 .inline-list li,
 .inline-list ol,
-.inline-list p {
+.inline-list p,
+.inline-list ul {
 	display : inline
 }
 
@@ -274,11 +275,13 @@ ol > li > ol > li::before {
 	position : relative
 }
 
-.inline-list ol {
+.inline-list ol,
+.inline-list ul {
 	padding-left : 0
 }
 
-.inline-list ol > li::before {
+.inline-list ol > li::before,
+.inline-list ul > li::before {
 	content : "(" counter(item) ") "
 }
 
