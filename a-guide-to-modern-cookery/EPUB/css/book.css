@@ -247,7 +247,7 @@ ol > li {
 }
 
 ol > li::before {
-	content : counter(item) ".";
+	content : "(" counter(item) ")";
 	counter-increment : item;
 	left : -1em;
 	position : absolute
